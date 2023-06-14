@@ -1,0 +1,126 @@
+body {
+  background-color: rgb(39, 36, 36);
+}
+
+.container {
+     max-width: 400px;
+     margin: 40px auto;
+     padding: 20px;
+     background-color: whitesmoke;
+    border-radius: 5px;
+   }
+
+   .form-group {
+     margin-bottom: 15px;
+   }
+
+   .form-group label {
+     display: block;
+     margin-bottom: 5px;
+   }
+
+   .form-group input, .form-group textarea {
+     width: 100%;
+     padding: 5px;
+   }
+
+   .form-group textarea {
+     height: 100px;
+   }
+
+   .form-group button {
+     padding: 15px;
+     background-color: #dfe5df;
+     color: black;
+     border: none;
+     cursor: pointer;
+     border-radius: 10px;
+     width: 100%;
+   }
+
+   .form-group button:hover {
+     background-color: rgb(39, 36, 36);
+     color: white;
+   }
+
+#success-message {
+  display : block;
+  color :   #FFFFFF; 
+  padding : 10px; 
+}
+#data-container  {
+  width: 100%;
+  /* height: calc(100vh - 200px);  */
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  /* padding: 20px; */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #dfe5df;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  text-align: center;
+}
+
+th:first-child,
+td:first-child {
+  width: 10%;
+}
+
+th:nth-child(2),
+td:nth-child(2) {
+  width: 20%;
+}
+
+th:nth-child(3),
+td:nth-child(3) {
+  width: 30%;
+}
+
+th:nth-child(4),
+td:nth-child(4) {
+  width: 30%;
+}
+
+th:last-child,
+td:last-child {
+  width: 10%;
+  text-align: center;
+}
+
+.delete-button {
+  margin-right: 5px;
+}
+
+
+.delete-button-style {
+  background-color: red;
+  color: white;
+}
+
+.modal-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.modal {
+  display: block;
+  width: 100%;
+  height: auto;
+}
